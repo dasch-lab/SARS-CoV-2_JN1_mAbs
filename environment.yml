@@ -1,0 +1,17 @@
+name: 
+channels:
+- bioconda
+- conda-forge
+- nanoporetech
+dependencies:
+- anarci
+- nanoporetech::hmmer
+- openmm
+- pdbfixer
+- pip
+- pip:
+  - biopython
+  - matplotlib
+  - pandas
+  - ImmuneBuilder
+
